@@ -42,3 +42,4 @@ plt.subplot(1,2,2)
 plt.imshow(np.clip(image_rec,0,255).astype(np.uint8))
 plt.title('Compressed, with {} colors'.format(K))
 plt.axis('off');
+plt.show()

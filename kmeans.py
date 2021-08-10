@@ -8,10 +8,14 @@ K = input("Enter the number of clusters: ")
 filename = os.path.join('images', input("Enter the file name: "))
 
 
-loaded_image = Image.open(filename)
-rgb_img = loaded_image.convert('RGB')
-img = np.array(rgb_img)
-
+if os.path.splitext(filename)[1] == '.png':
+    loaded_image = Image.open(filename)
+    rgb_img = loaded_image.convert('RGB')
+    img = np.array(rgb_img)
+else:
+    loaded_image = Image.open(filename)
+    img = np.array(loaded_image)
+    
 
 X = img.reshape(-1, 3)
 X = X.astype(np.float32)

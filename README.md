@@ -1,3 +1,5 @@
+![Python](https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)
+
 # kmeans-image-segmentation
 
 <h1 align="center">

@@ -8,6 +8,16 @@
   <img WIDTH=450 HEIGHT=280 src="src/assets/pug4colors.png" />
 </h1>
 
+## Instructions
+    1. add images to the '/images' path
+    2. run kmeans.py
+    3. choice number of clusters
+    4. select an image
+    
+  <h1 align="center">
+  <img  src="src/assets/instructions.png" />
+  </h1>
+
 ## packages
     pip install -U scikit-learn
     pip install -U matplotlib

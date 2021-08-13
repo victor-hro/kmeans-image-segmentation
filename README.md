@@ -3,6 +3,8 @@
 
 # kmeans-image-segmentation
 
+by: Victor Oliveira.
+
 <h1 align="center">
   <img src="src/assets/pug2colors.png" />
   <img src="src/assets/pug4colors.png" />

@@ -4,8 +4,8 @@
 # kmeans-image-segmentation
 
 <h1 align="center">
-  <img WIDTH=450 HEIGHT=280 src="src/assets/pug2colors.png" />
-  <img WIDTH=450 HEIGHT=280 src="src/assets/pug4colors.png" />
+  <img src="src/assets/pug2colors.png" />
+  <img src="src/assets/pug4colors.png" />
 </h1>
 
 ## Instructions
